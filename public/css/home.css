@@ -1,0 +1,337 @@
+@media (max-width: 763px) {
+    .h-x {
+        display: none;
+    }
+}
+
+.merch-title {
+    font-size: 15px;
+    position: relative;
+    background: rgba(0, 0, 0, 0.59);
+    width: 100%;
+    color: white;
+    z-index: 1;
+    top: 26px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+#cantFav {
+    background: rgba(180, 180, 50, 0.8);
+    position: relative;
+    border-radius: 50%;
+    bottom: 14px;
+    padding: 0 4px;
+    font-weight: bolder;
+    color: white;
+    font-style: normal;
+    right: 10px;
+}
+
+.invert {
+    transform: scaleX(-1);
+}
+
+.t {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0 0 0;
+    margin: 0 50px;
+}
+
+#cantProd {
+    background: rgba(1, 1, 50, 0.7);
+    position: relative;
+    border-radius: 50%;
+    bottom: 14px;
+    font-weight: bolder;
+    color: white;
+    font-style: normal;
+    right: 07px;
+    padding: 0 5px;
+}
+
+.merch-btn {
+    font-size: 1rem;
+    position: relative;
+    bottom: 26px;
+    background: blanchedalmond;
+    width: 100%;
+    border-radius: 2px;
+}
+
+@media (max-width: 430px) {
+    .merch {
+        width: 40% !important;
+        padding: 2px !important;
+    }
+}
+
+@media (min-width: 1024px) {
+    .merch {
+        width: 15% !important;
+        padding: 2px !important;
+    }
+}
+
+.item-platform {
+    display: flex;
+    padding: 5px 0;
+    margin: 0;
+}
+
+.list-platform {
+    margin: 0;
+    padding: 0;
+    padding-left: 12px;
+}
+
+.list-platform>li {
+    list-style: none;
+}
+
+.item-searchAdvanced {
+    list-style: none;
+    text-align: initial;
+}
+
+ul>li {
+    text-align: center;
+}
+
+.picture {
+    border-radius: 100px !important;
+    width: 120px;
+}
+
+#clock {
+    text-align: center;
+    margin: 1em;
+}
+
+li>a {
+    color: #337ab7;
+}
+
+#btnAdminLg {
+    margin: 0 40px;
+}
+
+#btnAdminXs {
+    margin: 0 36vw;
+}
+
+
+/*//////////////////////////////*/
+
+.productsPreorder .item .cover img {
+    width: 100%
+}
+
+.productsPreorder .item .cover {
+    position: relative;
+    display: inline-block;
+}
+
+.productsPreorder .item .date {
+    color: #777;
+    font-size: 13px;
+    margin-top: 5px;
+    white-space: nowrap;
+}
+
+.productsPreorder .item .button {
+    border-radius: 3px;
+    padding: 5px 10px 6px;
+    font-size: 11px;
+    margin: 5px 0 9px;
+}
+
+.productsPreorder .item:hover .button {
+    background: #ffa700;
+}
+
+.productsPreorder .item {
+    width: calc(100%/4 - 4px);
+    display: inline-block;
+    margin: 0 2px;
+    position: relative;
+}
+
+.productsPreorder {
+    position: relative;
+    background: #fff;
+    padding: 6px 4px 0;
+    font-size: 0;
+    text-align: center;
+}
+
+.button {
+    background: #ff5400;
+    color: #fff;
+    border-radius: 5px;
+    padding: 7px 20px;
+    font-weight: 700;
+    display: inline-block;
+}
+
+.mainshadow {
+    box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, .1);
+}
+
+
+/* 
+#egames-main-container {
+    width: 1036px;
+    margin: 0 auto;
+    background: #eee;
+    position: relative;
+    box-shadow: 0 0 3px rgba(0, 0, 0, .39);
+}
+
+#egames-panel-left {
+    position: relative;
+    float: left;
+    width: 230px;
+}
+
+#egames-panel-center {
+    float: left;
+    width: 536px;
+    padding: 0 10px;
+}
+
+#egames-panel-center.egames-panel-center-wide {
+    width: 100%;
+    padding: 0;
+}
+
+#egames-panel-center.egames-panel-center-semiwide {
+    width: 776px;
+    padding: 0 0 0 10px;
+}
+
+#egames-panel-right {
+    float: left;
+    width: 230px;
+}
+
+#egames-bottom-block-panel {
+    clear: both;
+    position: relative;
+}
+
+.egames-panel-center-wide .egames-sections-main-header,
+.egames-panel-center-semiwide .egames-sections-main-header {
+    width: auto;
+}
+
+.egames-panel-center-wide .egames-sections-main-content,
+.egames-panel-center-semiwide .egames-sections-main-content {
+    width: auto;
+} */
+
+.productsPreorder .item .clock {
+    background: #000;
+    border-radius: 0 0 3px 3px;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+    padding: 4px 12px;
+    font-size: 11px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.productsPreorder .item .clock.delivered {
+    background: #014297;
+}
+
+.product .cover .dlc {
+    width: 30%;
+    position: absolute;
+    left: 0;
+}
+
+.product .dlc-mobile {
+    display: none;
+    position: absolute;
+    z-index: 0;
+    height: 75px;
+    width: 75px;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background: url(/themes/igv1/images/dlc.png) -2px -2px no-repeat;
+    background-size: 100%
+}
+
+.item .dlc {
+    width: 40%;
+    position: absolute;
+    left: 0;
+}
+
+.productsPreorder .item img.dlc {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 40%
+}
+
+.productsPreorder .item .shadow {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    height: 30px;
+    box-shadow: inset 0 -43px 15px -22px rgba(0, 0, 0, .75);
+}
+
+.productsPreorder .item .discount {
+    background-color: #ff540f;
+    padding: 2px 5px 3px;
+    font-size: 13px;
+    color: #fff;
+    bottom: 5px;
+    left: 5px;
+    position: absolute;
+}
+
+.productsPreorder .item .price {
+    bottom: 1px;
+    right: 4px;
+    position: absolute;
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+.productsPreorder .item .clock {
+    background: #000;
+    border-radius: 0 0 3px 3px;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+    padding: 4px 12px;
+    font-size: 11px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.productsPreorder .item .button {
+    border-radius: 3px;
+    padding: 5px 10px 6px;
+    font-size: 11px;
+    margin: 5px 0 9px;
+}
+
+@media screen and (max-width:350px) {
+    .productsPreorder .item .button {
+        padding: 5px 5px 6px;
+    }
+}
